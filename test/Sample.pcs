@@ -1,0 +1,16 @@
+'!TITLE "Denso robot program"
+
+#Include "ATI_FT.pcs"	'ATI F/T Driver
+
+Sub Main
+	Dim CurrentForce As Variant
+
+	CurrentForce = ATI_FT()	'Get Current Force Data
+
+	F0 = CurrentForce(0)	'Fx Value
+	F1 = CurrentForce(1)	'Fy Value
+	F2 = CurrentForce(2)	'Fz Value
+	F3 = CurrentForce(3)	'Mx Value
+	F4 = CurrentForce(4)	'My Value
+	F5 = CurrentForce(5)	'Mz Value
+End Sub
