@@ -26,6 +26,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **v2.0.1** 
 - Changed communication from Comm object to ATI Provider. 
 - Communication speed improved by 80%.
+- Driver tested on a ATI Axia80 sensor
 
 **v1.1.0**
 - Driver tested on ATI-AI Gamma F/T-NET sensor
